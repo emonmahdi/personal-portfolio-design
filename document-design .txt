@@ -1,0 +1,14 @@
+One Page portfolio website
+#section
+	*Home 
+	*About = Details, Education, Skills
+	*Blog 
+	*Portfolio
+	*Contact
+
+Colors----
+	* background- #111111
+	* text color: #FFFFFF
+	* Primary Color/Heding 2 Color/button color: #F83A2C
+	* Heding down text color:#222222
+	* contact input bg-color and social bg-color:#252525

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Emon - Personal Portfolio </title>
+	<link rel="stylesheet" href="assets/vendor/normalize.css">
+	<link rel="stylesheet" href="assets/vendor/reset.css"> 
+	<link rel="stylesheet" href="assets/vendor/fontawesome-free-5/css/all.min.css">
+	<link rel="stylesheet" href="assets/vendor/animated-circle.css">
+	<link rel="stylesheet" href="assets/vendor/venobox.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+	<header id="header-section"> 
+		<div class="container">
+		<nav id="navbar">
+			<div class="logo">
+				<a href="#header-section">Emon Mahdi </a> 
+			</div>
+			<div class="menus">
+				<ul>
+					<li><a href="#header-section">Home <i class="fas fa-home"></i></a></li>
+					<li><a href="#about-section">  About <i class="fas fa-user"></i></a></li>
+					<li><a href="#portfolio-section">  Portfolio  <i class="fas fa-briefcase"></i></a></li>
+					<li><a href="#blog-section"> Blog  <i class="fas fa-comments"></i></a></li>
+					<li><a href="#contact-section"> Contact  <i class="fas fa-envelope-open"></i></a></li>
+				</ul>
+				<div class="mobile-menu">
+					<span onclick="OpenNav()">&#9776;</span>
+					<div id="myNav" class="overlay-menu">
+						<a href="javascript:void(0)" onclick="CloseNav()" class="closebtn"><span>&times;</span></a>
+						<div class="overlay-content-menu">
+							<a onclick="CloseNav()" href="#header-section">Home</a>
+							<a onclick="CloseNav()" href="#about-section">About</a>
+							<a onclick="CloseNav()" href="#portfolio-section">Portfolio</a>
+							<a onclick="CloseNav()" href="#blog-section">Blog</a>
+							<a onclick="CloseNav()" href="#contact-section">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav> 
+		</div> 
+	</header>
+	<!-- header main  -->
+	<section id="header-top">
+		<div class="container">
+			<div class=" header-body">
+				<div class="header-image"> 
+					<div class="my-img">
+						<!-- <img src="assets/img/me.jpg" alt=""> -->
+					</div>
+				</div>
+				<div class="header-text">
+					 <h5>hi there!</h5>
+					 <h1>I'M <span>Emon Mahdi</span> </h1>
+					 <p>I'm a Bangladesh based web designer &amp; front‑end developer focused on crafting clean &amp; user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+					 <button>
+					 	<a href="#about-section">More About Me <i class="fas fa-user"></i></a>
+					 </button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =================================== -->
+	<!-- Strart About section -->
+	<!-- =================================== -->
+	<section id="about-section">
+		<div class="container">
+			<div class="section-title">
+				<h2>About <span>Me </span></h2>
+				<h4>Resume </h4>
+			</div>
+			<div class="personal-info">
+				<div class="info">
+					 <h2>PERSONAL INFOS</h2>
+					 <div class="details">
+					 	<div class="one">
+					 		<ul>
+					 			<li>First Name: </li><span> Md Emon</span><br>
+					 			<li>Last Name: </li> <span>Mahdi</span><br>
+					 			<li>Age: </li><span>23y</span><br>
+					 			<li>Nationality: </li><span>Bangladeshi </span><br>
+					 			<li> Study: </li><span>Avaiable </span><br>
+					 		</ul> 
+					 		 <button>
+					 			<a href="assets/Md-EMON-HOWLADER-CV.pdf" class="btn-cv">Download Cv  <i class="fas fa-user"></i></a>
+							 </button>
+					 	</div>
+					 	<div class="two">
+					 		<ul>
+					 			<li>Address: </li><span>Barishal Sador</span><br>
+					 			<li>Phone: </li><span>01908131513</span><br>
+					 			<li>Email: </li><span>emonhowlader1997@gmail.com</span><br>
+					 			<li>Skype: </li><span>Md Emon Howlader </span><br>
+					 			<li>Language: </li><span>Bangla and English </span><br>
+					 		</ul>
+					 	</div>
+					 </div>
+					
+				</div>
+				<div class="achived">
+					 <div class="col-md-6">
+					 	<span>240+</span>
+					 	<hr>
+					 	<h3>Years Of Experience  </h3>
+					 </div>
+					 <div class="col-md-6">
+					 	<span>50+</span>
+					 	<hr>
+					 	 <h3>Complete Projects </h3>
+					 </div>
+					 <div class="col-md-6">
+					 	<span>30+</span>
+					 	<hr>
+					 	 <h3>Happy Customer  </h3>
+					 </div>
+					 <div class="col-md-6">
+					 	<span>10+</span>
+					 	<hr>
+					 	 <h3>Gain Awards </h3>
+					 </div>
+				</div>
+			</div>
+			<hr class="divider">
+			<div class="skill-section">
+				 <h2>MY SKILLS</h2>
+				 <div class="skill-bar">
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="95" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+					        <h3>HTML </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="75" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+					        <h3>css </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="25" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">25%</text>
+					        <h3>Javascript </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+					        <h3>Bootstrap  </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="45" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">45%</text>
+					        <h3>Php</h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="55" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">55%</text>
+					        <h3>Wordpress   </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="75" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">42%</text>
+					        <h3>Development </h3>
+					    </svg>
+				 	</div>
+				 	<div class="bars">
+				 		<svg class="radial-progress" data-percentage="75" viewBox="0 0 80 80">
+					        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">60%</text>
+					        <h3>Mysql</h3>
+					    </svg>
+				 	</div> 
+				 </div>
+			</div>
+		</div>
+		<hr class="divider"> 
+	<!-- ================================= -->
+	<!-- Education and Experience section -->
+	<!-- ================================= -->
+   <div id="education-section">
+   	<div class="container">
+   		<div class="section-title">
+   			<h2>Experience & Education </h2>
+   		</div>
+   		<div class="row">
+   			<div class="left-experience">
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-briefcase"></i>
+	   							</div>
+	   							<span class="time">2020 - Present </span>
+	   							<h5>web developer <span class="place">Dream It  </span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div>
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-briefcase"></i>
+	   							</div>
+	   							<span class="time">2019 - 2020 </span>
+	   							<h5>web Designer  <span class="place">Creative It</span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div> 
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-briefcase"></i>
+	   							</div>
+	   							<span class="time">2018 - 2019</span>
+	   							<h5>Support Enginner <span class="place">Pandora Technology </span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div> 
+   			</div>
+   			<div class="right-education">
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-graduation-cap"></i>
+	   							</div>
+	   							<span class="time">2019 - Present  </span>
+	   							<h5>CSE <span class="place">University Of Global Village  </span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div>
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-graduation-cap"></i>
+	   							</div>
+	   							<span class="time">2014-2018 </span>
+	   							<h5>Diploma Computer Technology <span class="place">Patuakhali Polytechnic Institue  </span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div>
+   				<div class="col-md-6 ">
+	   				<div class="resume-box">
+	   					<ul>
+	   						<li>
+	   							<div class="icon">
+	   								<i class="fas fa-graduation-cap"></i>
+	   							</div>
+	   							<span class="time">2014 </span>
+	   							<h5>SSC <span class="place">Nooria Secondary High School, Barisal  </span></h5>
+	   							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus amet vero officiis delectus blanditiis distinctio eum labore. Mollitia corporis, enim?</p>
+	   						</li>
+	   					</ul>
+	   				</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   </div>
+ </section>
+ <!-- ========================================== -->
+ <!-- Portfolio section  -->
+ <!-- ========================================== -->
+<section id="portfolio-section">
+	<div class="container">
+		<div class="section-title">
+			<h2>My  <span>Portfolio  </span></h2>
+			<h4>works </h4>
+		</div>
+		<!-- ========== -->
+		<div class="image-gallery">
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/absolute2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2> 
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/absolute.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div>
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/sinax2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2> 
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Sinax.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div>
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/Benthy2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2>
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Benthy.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/Fransichor2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2> 
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Fransichor.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div>
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/Maxim2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2>
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Maxim.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/eBusiness2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2>
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/eBusiness.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/Mahdi-Square2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2>
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Mahdi-Square.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+		 			</div>
+	 			</a>
+	 		</div>
+	 		<div class="single-image">
+	 			<img src="assets/img/portfolio/Cuda2.png" alt="">
+	 			<div class="overlay">
+	 				<h2>Image Title </h2>
+	 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Cuda.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+	 			</div>
+	 		</div>
+	 		<div class="single-image">
+	 			<a href="#">
+		 			<img src="assets/img/portfolio/Personal-Portfolio-2-2.png" alt="">
+		 			<div class="overlay">
+		 				<h2>Image Title </h2>
+		 				<div class="link">
+		 					<a href="#"><i class="fas fa-link"></i></a>
+		 				    <a class="venobox" href="assets/img/portfolio/Personal-Portfolio-2.png" data-gall="portgallery"><i class="fas fa-plus"></i></a>
+		 				</div> 
+		 			</div>
+	 			</a>
+	 		</div>
+	 	</div>
+		<!-- ========== -->
+	</div>
+</section>
+<!-- ======================================= -->
+<!-- Blog section -->
+<!-- ======================================= -->
+<section id="blog-section">
+	<div class="container">
+		<div class="section-title">
+			<h2>My <span>Blog</span>  </h2>
+			<h4>posts</h4>
+		</div>
+		<div class="blog-posts">
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-1.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div>
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-3.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div>
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-6.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div> 
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-2.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div> 
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-4.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div>
+			<div class="single-blog">
+				<div class="blog-img">
+					<img src="assets/img/blog/blog-post-5.jpg" alt="">
+				</div> 
+				<a href="#">
+					<h4>How to Own Your Audience by Creating an Email List</h4>
+				</a> 
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...</p>
+			</div> 
+		</div>
+		<nav class="paginationbar">
+			<ul>
+				<li><a class="activepro" href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
+		</nav>
+	</div>
+</section>
+<!-- ======================================= -->
+<!-- Contact section -->
+<!-- ======================================= -->
+<section id="contact-section">
+	<div class="container">
+		<div class="section-title">
+			<h2>get in<span> touch</span> </h2>
+			<h4>Contact </h4>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<h3>DON'T BE SHY !</h3>
+				<p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+				<div class="contact">
+					<div class="contact-one">
+						<i class="fas fa-envelope-open"></i>
+						<h5>Mail ME </h5>
+						<span>emonhowlader1997@gmail.com</span>
+					</div>
+					<div class="contact-one">
+						<i class="fas fa-phone"></i>
+						<h5>Call ME </h5>
+						<span>01908131513</span>
+					</div>
+					<div class="social-link">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-dribbble"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				 <div class="contact-form">
+				 	<form action="">
+				 		<div class="name-box">  
+				 		    <input type="text" placeholder="Your Name ">
+				 		    <input type="email" placeholder="Your Email ">
+				 		    <input type="text" placeholder="Your Subject ">
+				 		</div>
+				 		<textarea placeholder="Your Message"></textarea>
+				 		<div class="submit-btn"> 
+				 			 	<input type="submit" value="Send Message"> 
+				 			 	<!-- <a href="#" type="submit">Send Message <i class="far fa-paper-plane"></i></a> --> 
+						</div>
+				 	</form>
+				 </div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<!-- ============================================= -->
+<!-- Footer section -->
+<footer>
+	<div class="container">
+		<div class="logo">
+	    	<a href="#header-section">Emon Mahdi </a> 
+	    </div>
+		<div class="social-link">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p>
+			Copyright &copy; All right reserved <b>MD Emon Mahdi </b>
+		</p>
+	</div>
+</footer>
+ 
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="assets/vendor/animated-circle.js"></script>
+	<script src="assets/vendor/venobox.min.js"></script>
+	<script src="custome.js"></script> 
+</body>
+</html>
