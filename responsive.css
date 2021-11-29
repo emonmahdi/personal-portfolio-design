@@ -21,6 +21,13 @@
 	#navbar .menus ul{
 		display: none;
 	} 
+	.image-gallery{
+		display: grid;
+		grid-template-columns: 100% ; 
+    }
+	.single-project{
+		width: 100%;
+	}
 }
 @media screen and (max-width:992px){
 	.info{
@@ -41,9 +48,9 @@
 		 width: 80%; 
 		 float: left;
 	}
-	.image-gallery{ 
+	/* .image-gallery{ 
 	 	grid-template-columns: auto auto ; 
-	}
+	} */
 	#contact-section .row{ 
 		grid-template-columns:85%; 
 		padding: 3rem;
@@ -104,6 +111,16 @@
 	.info{
 		padding: 3rem;
 	}
+	.single-project{
+		width: 100%;
+		display: block;
+	}
+	.single-image{ 
+		width: 100%; 
+    }
+	.project-details{
+		width: 100%; 
+	} 
 }
 @media screen and (max-width:550px){
 	.bars{
@@ -112,6 +129,9 @@
 	#navbar .logo a{ 
 		font-size: 2rem; 
 
+	}
+	.cv-btn{
+		margin-top: 20px;
 	}
 	.achived {
 		width: 100%; 

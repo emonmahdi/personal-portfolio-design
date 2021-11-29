@@ -18,10 +18,14 @@ button{
 	background:#F83A2C;
 	padding:1.4rem 3rem; 
 	border-radius: 3rem;
+	cursor: pointer;
+	transition: .4s;
+	color:#fff;
 }
 button a{
 	color:#fff;
 	font-size: 1.6rem;
+	transition: .4s;
 }
 button a i{
 	opacity: 0; 
@@ -33,7 +37,14 @@ button:hover a i{
 	visibility: visible;
 	display: inline-block;
 	margin-left: .9rem;
+	color:#000;
 
+}
+button:hover{
+	background-color: #fff; 
+}
+button:hover a{ 
+	color:#000;
 }
 a{
 	text-decoration: none;
@@ -186,6 +197,9 @@ a{
 .header-text span{
 	color:#F83A2C;
 } 
+.cv-btn{
+	margin-left: 15px;
+}
 /*==================Mobile-menu=====================*/
 .mobile-menu{
 	color:#fff;
@@ -485,7 +499,7 @@ svg.radial-progress,text{
 	font-size: 1.5rem;
 	line-height: 2.5rem;
 }
-/*=======================================*/
+ /*=======================================*/ 
 /*portfolio section*/
 /*=======================================*/
 #portfolio-section{
@@ -495,34 +509,61 @@ svg.radial-progress,text{
 
 .image-gallery{
  	display: grid;
- 	grid-template-columns: auto auto auto;
+ 	grid-template-columns: 50% 50%;
  	grid-column-gap: 2rem;
  	padding: 1.5rem;
- 	margin: 1.5rem;
- 	overflow: hidden;
+ 	margin: 1.5rem; 
+}
+.single-project{
+	display: flex;
+	justify-content: space-between; 
+	border: 2px solid #ddd;
+	margin-bottom: 2rem;
+}
+.project-details{
+	width: 50%;
+	overflow: hidden;
+	padding: 20px;
+}
+.project-details h3{
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	line-height: 2.6rem;
+	font-weight: bold;
+}
+.project-details p{
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	line-height: 2.4rem;
+}
+.single-project button{
+	border:none;
+	background:#F83A2C;
+	padding:1rem 2rem; 
+	font-size: 1.3rem; 
 }
 .single-image{
 	  position:relative;
-	  width: 100%;
+	  width: 50%;
+	  overflow: hidden;
 }
 .single-image img{ 
 	 width: 100%;
 	 display: inline-block;
-	 margin: 1rem;
+	 margin: 0;
 	 margin-bottom: 1rem;
-	 height: 23rem; 
-	 border-radius: .5rem;
+	 height: 100%;  
 	
 }
 .single-image:hover .overlay{ 
-	transform: scale(1.1); 
+	transform: scale(1); 
 }
 .overlay{
 	text-align: left;
 	background-color: rgba(0,0,0,.6);
 	width: 100%;
-	height: 23rem; 
-	margin: 1rem;
+	height: 100%; 
+	margin: 0;
 	padding: 2rem;
 	position:absolute;
 	top: 0;
@@ -532,10 +573,10 @@ svg.radial-progress,text{
 	color:#fff; 
 	transform: scale(0);
 	/*transform-origin: top center;*/
-	transition:all 1s ease; 
+	transition:all .7s ease; 
 	
 }
-.overlay h2{
+.overlay h4{
 	text-align:center;  
 	padding-top: 5rem;
 	margin-bottom: .5rem;
@@ -551,8 +592,11 @@ svg.radial-progress,text{
 	text-align: center;
 	margin:2rem;
 }
+.link button{
+	padding:1rem 1.4rem; 
+}
 .link a{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color:#fff;
 	display: inline-block;
 	margin-right: 1.5rem;
@@ -562,6 +606,9 @@ svg.radial-progress,text{
 }
 .venobox{
 	z-index: 444444444444!important;
+}
+.projects-btn button{
+	margin: 10px;
 }
 /*================================*/
 /* Blog section */
