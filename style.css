@@ -639,6 +639,7 @@ svg.radial-progress,text{
 }
 .blog-img{ 
 	overflow: hidden;
+	height: 250px;
 }
 .single-blog a h4:hover{
 	color:#F83A2C;

@@ -43,3 +43,10 @@ button:hover{
 .links button:hover{
     border:1px solid #F83A2C;
 }
+.carousel-item img{
+    height: 280px !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #000 !important;
+    color:#fff !important; 
+}
