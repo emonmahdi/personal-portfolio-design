@@ -525,6 +525,13 @@ svg.radial-progress,text{
 	overflow: hidden;
 	padding: 20px;
 }
+.project-details .project-title{
+	text-decoration: none;
+	color: tomato;
+}
+.project-details a:hover{
+	color:#fff;
+}
 .project-details h3{
 	font-size: 2rem;
 	margin-bottom: 2rem;

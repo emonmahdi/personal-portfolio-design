@@ -1,0 +1,45 @@
+#project-details{
+    overflow: hidden;
+    padding: 50px 0;
+}
+button:hover{
+    background-color: transparent !important;
+}
+.details-project h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.key-features h4{
+    font-size: 20px;
+}
+.details-project ul{
+    padding: 20px;
+}
+.details-project ul li{
+    font-size: 16px;
+    line-height: 25px;
+    list-style: circle;
+}
+.long-description p{
+    font-size: 18px;
+}
+.links button{
+    font-size: 16px;
+    border:1px solid #F83A2C;
+    margin-right: 10px;
+    padding: 1rem 1.4rem;
+    margin-bottom: 20px;
+}
+.links button a, .links button a i{
+    color:#fff;
+}
+.links button a i{
+    display: inline-block;
+    font-size: 18px;
+    padding: auto 10px;
+    opacity: 1; 
+	visibility: visible;
+}
+.links button:hover{
+    border:1px solid #F83A2C;
+}
