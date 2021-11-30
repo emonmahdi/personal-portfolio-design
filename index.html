@@ -627,18 +627,17 @@
 			</div>
 			<div class="col-md-8">
 				 <div class="contact-form">
-				 	<form action="">
+				 	<form action="javascript:sendmail()" method="post">
 				 		<div class="name-box">  
-				 		    <input type="text" placeholder="Your Name ">
-				 		    <input type="email" placeholder="Your Email ">
-				 		    <input type="text" placeholder="Your Subject ">
+				 		    <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+				 		    <input type="email" name="Sender" id="Sender" placeholder="Your Email" required>
+				 		    <input type="text" name="Subject" id="Subject" placeholder="Your Subject" required>
 				 		</div>
-				 		<textarea placeholder="Your Message"></textarea>
+				 		<textarea name="Message" id='Message' placeholder="Your Message" required></textarea>
 				 		<div class="submit-btn"> 
-				 			 	<input type="submit" value="Send Message"> 
-				 			 	<!-- <a href="#" type="submit">Send Message <i class="far fa-paper-plane"></i></a> --> 
+				 			<input type="submit" value="Send Message">  
 						</div>
-				 	</form>
+				 	</form>  
 				 </div>
 			</div>
 			
@@ -668,6 +667,52 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 	<script src="assets/vendor/animated-circle.js"></script>
 	<script src="assets/vendor/venobox.min.js"></script>
-	<script src="custome.js"></script> 
+	<script src="custome.js"></script>  
+    <script
+		src="https://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		crossorigin="anonymous"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>  
+
+     function sendmail(){
+    
+			var name = $('#Name').val();
+			var email = $('#Sender').val();
+			var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+			// var body = $('#body').val();
+
+			var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+			//console.log(name, phone, email, message);
+
+			Email.send({
+        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'developeremon1997@gmail.com',
+				From: "demooptimalweb@gmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					alert('Your mail has been send. Thank you for connecting.');
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+    </script>
 </body>
 </html>
