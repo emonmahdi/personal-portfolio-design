@@ -551,7 +551,7 @@ svg.radial-progress,text{
 }
 .single-image{
 	  position:relative;
-	  width: 50%;
+	  width: 100%;
 	  overflow: hidden;
 }
 .single-image img{ 
@@ -594,6 +594,10 @@ svg.radial-progress,text{
 }
 .overlay p{
 	text-align:center; 
+	font-size: 16px;
+	color:#fff;
+	padding:10px 20px;
+	line-height: 25px;
 }
 .link{
 	text-align: center;
@@ -601,6 +605,7 @@ svg.radial-progress,text{
 }
 .link button{
 	padding:1rem 1.4rem; 
+	margin-right: 10px;
 }
 .link a{
 	font-size: 1.5rem;
